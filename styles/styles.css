@@ -1,1 +1,30 @@
 /* Styles across all pages */
+
+/* Styles for navbar */
+
+#nav-wrapper{
+    padding-top: 2.3rem;
+}
+.portfolio-nav{
+    padding-top: 7rem;
+}
+.active{
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+
+/* Styles for home page */
+
+#home-wrapper{
+    background-image: url(../images/website/main.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 950px;
+    height: auto;
+}
+
+/* Styles for footer */
+
+footer{
+    padding-top: 2.3rem;
+}
