@@ -8,7 +8,7 @@
 .portfolio-nav{
     padding-top: 7rem;
 }
-.active{
+.active #videography:hover #photography:hover{
     text-underline-offset: 7px;
     text-decoration: underline;
 }
@@ -17,10 +17,13 @@
 
 #home-wrapper{
     background-image: url(../images/website/main.jpg);
+    background-color: #1d2124;
     background-size: cover;
     background-position: center;
     min-height: 950px;
     height: auto;
+
+    transition: background-image 0.5s;
 }
 
 /* Styles for footer */
